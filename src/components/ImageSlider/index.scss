@@ -1,0 +1,36 @@
+.slider{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.slider-area{
+  top: -25vh;
+  left: -100vw;
+  height:160vh;
+  width:300vw;
+}
+
+.slider-view{
+  width: 600px;
+  height: 900px;
+  left:110vw;
+  top:30vh;
+  background:#FFF;
+  border-radius: 16px;
+}
+.slider-view .slider-item{
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height:100%;
+  left:0;
+  right:0;
+  margin:0 auto;
+}
+.slider-item__img {
+  width: 100%;
+  height: 100%;
+}

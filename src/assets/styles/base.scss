@@ -1,0 +1,138 @@
+@import './const.scss';
+.at-input-number{
+  border: 1px solid #CCC;
+}
+.at-input-number__btn{
+  color: #333;
+}
+/**重写input的placehoder样式*/
+.placeholder{
+  color: $color9;
+}
+
+/**重写按钮点击效果*/
+.btn-hover{
+  opacity: 0.7;
+}
+/**去掉默认按钮边框*/
+button::after{ 
+  border: none; 
+}
+.ft16_white{
+  font-size: $ft20;
+  color: $white-color;
+}
+.ft20_ccc{
+  font-size: $ft20;
+  color: #CCC;
+}
+.ft20_white{
+  font-size: $ft20;
+  color: $white-color;
+}
+.ft20_c3{
+  font-size: $ft20;
+  color: $color3;
+}
+.ft20_c9{
+  font-size: $ft20;
+  color: $color9;
+}
+.ft20_primary{
+  font-size: $ft20;
+  color: $primary-color;
+}
+
+.ft28_c3{
+  font-size: $ft28;
+  color: $color3;
+}
+.ft28_c9{
+  font-size: $ft28;
+  color: $color9;
+}
+.ft28_primary{
+  font-size: $ft28;
+  color: $primary-color;
+}
+.ft28_white{
+  font-size: $ft28;
+  color: $white-color;
+}
+.ft28_black{
+  font-size: $ft28;
+  color: $black-color;
+}
+.ft28_red{
+  font-size: $ft28;
+  color: $red-color;
+}
+.ft32_c3{
+  font-size: $ft32;
+  color: $color3;
+}
+.ft32_primary{
+  font-size: $ft32;
+  color: $primary-color;
+}
+.ft24_c3{
+  font-size: $ft24;
+  color: $color3;
+}
+.ft24_c6{
+  font-size: $ft24;
+  color: $color6;
+}
+.ft24_c9{
+  font-size: $ft24;
+  color: $color9;
+}
+.ft24_red{
+  font-size: $ft24;
+  color:$red-color;
+}
+.ft24_primary{
+  font-size: $ft24;
+  color: $primary-color;
+}
+.ft24_black{
+  font-size: $ft24;
+  color: $black-color;
+}
+.ft24_white{
+  font-size: $ft24;
+  color: $white-color;
+}
+.ft20_line-through {
+  font-size: $ft20;
+  color: gray;
+  text-decoration: line-through;
+}
+.fw{
+  font-weight: bold;
+}
+.fw300{
+  font-weight: 300;
+}
+.fw400{
+  font-weight: 400;
+}
+.fw500{
+  font-weight: 500;
+}
+.r{
+  text-align: right;
+}
+//适配iphoneX 底部吸底按钮高度
+.fix-iphonex-footer {
+  bottom:68rpx !important;
+}
+
+.fix-iphonex-button::after {
+  content: ' ';
+  position: fixed;
+  bottom: 0!important;
+  height: 68rpx!important;
+  width: 100%;
+  background: #fff;
+}
