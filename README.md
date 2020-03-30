@@ -5,7 +5,7 @@
  * @LastEditTime: 2020-03-30 11:02:45
  * @Description: In User Settings Edit
  -->
-## `taro-tantan 仿探探图片幻灯片效果`
+## `taro-tantan 仿探探图片左滑右滑效果`
 > [Taro](http://taro-docs.jd.com/taro/docs/README.html)
 > [Taro-UI](https://taro-ui.jd.com/#/docs/introduction)
 > [Dva](https://dvajs.com/guide/)
